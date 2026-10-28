@@ -1,0 +1,33 @@
+:root{--bg:#EEF1F7;--sf:#fff;--ink:#14203D;--mut:#5D688A;--ln:#D6DCEA;--sport:#3E6BF0;--food:#18A874;--org:#D98200;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0F1626;--sf:#18213A;--ink:#E8ECF8;--mut:#93A0C4;--ln:#2A3558;--sport:#6B93FF;--food:#3DD49E;--org:#F5B04A;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0F1626;--sf:#18213A;--ink:#E8ECF8;--mut:#93A0C4;--ln:#2A3558;--sport:#6B93FF;--food:#3DD49E;--org:#F5B04A;color-scheme:dark}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-top:env(safe-area-inset-top,0)}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px 0;max-width:520px;margin:0 auto}
+h1{font-size:1.35rem;margin:0;font-weight:800}h2{font-size:1rem;margin:0 0 8px;display:flex;justify-content:space-between;align-items:center}h3{margin:14px 0 6px;font-size:.95rem}
+main{max-width:520px;margin:0 auto;padding:10px 16px 96px}
+.card{display:block;background:var(--sf);border-radius:16px;padding:14px;margin:0 0 12px}
+.big{text-align:center}.pc{font-size:2.6rem;font-weight:800}
+.mut,em{color:var(--mut);font-size:.85rem;font-style:normal}p{margin:4px 0}
+.c-sport{border-left:5px solid var(--sport)}.c-food{border-left:5px solid var(--food)}.c-org{border-left:5px solid var(--org)}
+button,select,input,textarea{font:inherit;color:var(--ink)}
+button{min-height:44px;cursor:pointer}
+.g{width:100%;display:flex;gap:12px;align-items:center;background:none;border:0;border-top:1px solid var(--ln);padding:8px 0;text-align:left}
+.g i{width:28px;height:28px;border-radius:50%;border:2px solid var(--mut);display:grid;place-items:center;flex:none;font-style:normal;font-weight:800}
+.g.s1 i{background:var(--food);border-color:var(--food);color:#fff}.g.s2{opacity:.55}.g.s2 i{border-style:dashed}
+.btn,.add button,.seg button,.tk button,.dn button{border:1px solid var(--ln);background:var(--sf);border-radius:12px;padding:0 14px}
+.btn{width:100%;margin:0 0 12px}
+.dn{display:flex;align-items:center;justify-content:space-between;margin:6px 0 10px}.dn b{text-transform:capitalize}.dn button{width:44px}
+input,select,textarea{width:100%;background:var(--bg);border:1px solid var(--ln);border-radius:10px;padding:10px;margin:4px 0}
+textarea{min-height:44px;resize:vertical}label{display:block;font-size:.9rem}.chk{display:inline-flex;gap:6px;align-items:center;width:auto}.chk input{width:auto;margin:0}
+.add{display:flex;gap:8px}.add input{flex:1}.seg{display:flex;gap:6px;margin-top:8px}.seg button{flex:1;padding:0 4px;font-size:.85rem}.seg .on{background:var(--sport);color:#fff;border-color:var(--sport)}
+.ex{border-top:1px solid var(--ln);padding:8px 0}.ex b{display:block}
+.tk{display:flex;gap:8px;align-items:center;border-top:1px solid var(--ln);padding:6px 0}.tk>span{flex:1}.tk button{min-width:44px;padding:0 8px}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}.cal small{color:var(--mut)}
+.cd{border:2px solid transparent;border-radius:10px;background:var(--bg)}.cd.good{background:var(--food);color:#fff}.cd.mid{background:var(--org);color:#fff}.cd.low{background:#C0584A;color:#fff}.cd.rest{border-color:var(--sport)}.cd.sel{outline:3px solid var(--ink)}
+.ch svg{width:100%;height:90px;background:var(--bg);border-radius:10px}table{width:100%;border-collapse:collapse}td,th{padding:4px;border-top:1px solid var(--ln);text-align:left;font-size:.9rem}
+pre{overflow:auto;background:var(--bg);padding:8px;border-radius:10px;font-size:.75rem}summary{min-height:44px;display:flex;align-items:center;font-weight:600}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--sf);border-top:1px solid var(--ln);padding-bottom:env(safe-area-inset-bottom,0)}
+nav button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;font-size:.7rem;color:var(--mut);padding:6px 0}nav button span{font-size:1.2rem}nav .on{color:var(--sport);font-weight:700}
+#toast{position:fixed;left:16px;right:16px;bottom:84px;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:12px;opacity:0;pointer-events:none;transition:opacity .2s;text-align:center}#toast.show{opacity:1}
+:focus-visible{outline:3px solid var(--sport);outline-offset:2px}

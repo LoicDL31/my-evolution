@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "seances": [
+    {
+      "jour": "lundi",
+      "nom": "Haut du corps A (pousser)",
+      "muscles": [
+        "pectoraux",
+        "épaules",
+        "triceps"
+      ],
+      "exercices": [
+        {
+          "nom": "Pompes",
+          "series": 3,
+          "reps": "8-15",
+          "repos": "60-90 s",
+          "consignes": "Corps gainé, poitrine près du sol.",
+          "variantes": [
+            "Pompes sur les genoux",
+            "Pompes mains surélevées"
+          ]
+        },
+        {
+          "nom": "Développé haltères au sol",
+          "series": 3,
+          "reps": "10-12",
+          "repos": "60-90 s",
+          "consignes": "Coudes à 45°, poussée contrôlée.",
+          "variantes": [
+            "Développé avec bande élastique"
+          ]
+        },
+        {
+          "nom": "Élévations latérales",
+          "series": 3,
+          "reps": "12-15",
+          "repos": "45-60 s",
+          "consignes": "Charge légère, sans balancer le buste."
+        },
+        {
+          "nom": "Extension triceps à une main",
+          "series": 3,
+          "reps": "10-12",
+          "repos": "45-60 s",
+          "consignes": "Coude fixe près de l’oreille."
+        }
+      ]
+    },
+    {
+      "jour": "mercredi",
+      "nom": "Dos et biceps (tirer)",
+      "muscles": [
+        "dos",
+        "biceps"
+      ],
+      "exercices": [
+        {
+          "nom": "Rowing à un bras",
+          "series": 3,
+          "reps": "10-12",
+          "repos": "60-90 s",
+          "consignes": "Dos plat, tirer le coude vers la hanche."
+        },
+        {
+          "nom": "Rowing penché deux haltères",
+          "series": 3,
+          "reps": "10-12",
+          "repos": "60-90 s",
+          "consignes": "Genoux légèrement fléchis, omoplates serrées."
+        },
+        {
+          "nom": "Tirage élastique",
+          "series": 3,
+          "reps": "12-15",
+          "repos": "45-60 s",
+          "consignes": "Tirer vers la poitrine, ne pas hausser les épaules."
+        },
+        {
+          "nom": "Curl biceps",
+          "series": 3,
+          "reps": "10-12",
+          "repos": "45-60 s",
+          "consignes": "Coudes fixes, descente lente.",
+          "variantes": [
+            "Curl avec bande élastique"
+          ]
+        }
+      ]
+    },
+    {
+      "jour": "vendredi",
+      "nom": "Haut du corps B (épaules, bras)",
+      "muscles": [
+        "épaules",
+        "pectoraux",
+        "bras"
+      ],
+      "exercices": [
+        {
+          "nom": "Développé militaire assis",
+          "series": 3,
+          "reps": "8-12",
+          "repos": "60-90 s",
+          "consignes": "Dos droit, ne pas cambrer."
+        },
+        {
+          "nom": "Pompes inclinées ou déclinées",
+          "series": 3,
+          "reps": "8-15",
+          "repos": "60-90 s",
+          "consignes": "Gardez le corps aligné.",
+          "variantes": [
+            "Pompes classiques"
+          ]
+        },
+        {
+          "nom": "Oiseau (arrière d’épaules)",
+          "series": 3,
+          "reps": "12-15",
+          "repos": "45-60 s",
+          "consignes": "Buste penché, charge légère."
+        },
+        {
+          "nom": "Curl marteau",
+          "series": 2,
+          "reps": "10-12",
+          "repos": "45-60 s",
+          "consignes": "Poignets neutres."
+        }
+      ]
+    },
+    {
+      "jour": "samedi",
+      "nom": "Abdos et cardio",
+      "muscles": [
+        "abdominaux",
+        "condition physique"
+      ],
+      "exercices": [
+        {
+          "nom": "Crunch",
+          "series": 3,
+          "reps": "12-20",
+          "repos": "30-45 s",
+          "consignes": "Expirer en montant, nuque relâchée."
+        },
+        {
+          "nom": "Planche",
+          "series": 3,
+          "reps": "30-45 s",
+          "repos": "45 s",
+          "consignes": "Bassin aligné, ventre serré.",
+          "variantes": [
+            "Planche sur les genoux"
+          ]
+        },
+        {
+          "nom": "Relevés de jambes allongé",
+          "series": 3,
+          "reps": "10-15",
+          "repos": "45 s",
+          "consignes": "Lombaires collées au sol.",
+          "variantes": [
+            "Relevés de genoux"
+          ]
+        },
+        {
+          "nom": "Marche rapide ou cardio léger",
+          "series": 1,
+          "reps": "15-20 min",
+          "repos": "—",
+          "consignes": "Allure où tu peux encore parler."
+        }
+      ]
+    }
+  ]
+}
